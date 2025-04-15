@@ -1,15 +1,26 @@
 body {
+    background-image:  url(daisies.jpg);
+    background-color: #f281ff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+   
+}
+
+
+body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e387ff;
     color: #333;
 }
 
 header {
     background: #333;
-    color: #fff;
+    color: #f4ae0c;
     padding: 10px 0;
     text-align: center;
 }
@@ -37,21 +48,21 @@ section {
     padding: 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #fff;
+    background: #ffffffd1;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .profile-pic {
     display: block;
-    margin: 10px auto;
-    border-radius: 50%;
-    max-width: 150px;
+    margin: 20px auto;
+    border-radius: 100%;
+    max-width: 200px;
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: #333;
+    background: #333333;
     color: #fff;
 }

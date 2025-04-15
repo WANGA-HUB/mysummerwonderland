@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="summer.css">
+</head>
+<body>
+    <header>
+        <h1>HEY LOVELY! WELCOME TO MY WORLD!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Phone:</strong> +254 799 251 499</p>
+        <p><strong>Email:</strong> <a href="mailto:wangarinjenga23@gmail.com">wangarinjenga23@gmail.com</a></p>
+        <p><strong>Website:</strong> <a href="https://wanga-hub.github.io/mysummerwonderland/" target="_blank">Visit My Website</a></p>
+
+        <h2>Contact Form</h2>
+        <p>If you have any questions or would like to get in touch, please fill out the form below:</p>
+        <form action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="hidden" name="_replyto" value="wangarinjenga23@gmail.com">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your Name"><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your Email"><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" placeholder="Your Message"></textarea><br>
+
+            <label for="country">Country:</label><br>
+            <select id="country" name="country">
+                <option value="kenya">Kenya</option>
+                <option value="other">Other</option>
+            </select><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 mysummerwonderland. All rights reserved.</p>
+    </footer>
+</body>
+</html>
